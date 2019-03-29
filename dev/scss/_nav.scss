@@ -1,8 +1,8 @@
 // Main Navigation Styles
 nav {
     // locally scoped variable
-    $height: 40px;
-    $border: 1px solid black;
+    $height: 50px;
+    $border: 1px solid white;
     background-color: $brand-color-dark;
     height: $height;
     border-top: $border;
@@ -11,7 +11,7 @@ nav {
         @include flatten;
         list-style: none;
         display: flex;
-        @media (max-width: $phoneLandscape){
+        @media (max-width: $tabletPortrait){
             display: block;
         }
     }
@@ -29,18 +29,19 @@ nav {
         font-size: 1.2em;
         text-decoration: none;
         outline: none;
-        
-        // #{$link-hover-selector} {
-        //     background-color: rgba(white, 0.3);
-        // }
+    }
 
-        @at-root nav li:last-child a {
+    li:last-child a {
             border-right: none;
         }
 
+    a:active,
+    a:hover,
+    a:focus {
+       background-color: rgba(white, 0.3); 
     }
 
-    @media (max-width: $phoneLandscape) {
+    @media (max-width: $tabletPortrait) {
         display: none;
         height: auto;
         border-top: none;
