@@ -14,11 +14,11 @@
 // // margins and padding and
 // // setting the line-height to 1 
 // // ...useful mainly on typographic elements
-// @mixin flatten {
-//     margin: 0;
-//     padding: 0;
-//     line-height: 1;
-// }
+@mixin flatten {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
 
 // // Visually hide an element but
 // // still make it accessible to 
