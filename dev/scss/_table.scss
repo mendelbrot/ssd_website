@@ -14,22 +14,26 @@
 //     // Data Table Column Colour List
 //     $table-colours-list: $colour1, $colour2, $colour3, $colour4, $colour5;
 
+table{
+    @include margin-center;
+    padding: 10px;
+   
+}
 //     // Table Border
-//     $table-border: 1px solid black;
-
-//     // Table Cell padding
-//     $cell-padding: 10px;
-
+    // $table-border: 1px solid black;
+    
+    // Table Cell padding
+    // $cell-padding: 20px;
+    $td-margin:20px;
 //     // Table Styles
 //     font-family: $heading-font;
 //     width: $one-col;
-//     border: $table-border;
+    // $border: $table-border;
 
-//     th, td {
-//         text-align: center;
-//         padding: $cell-padding;
-//         border: $table-border;
-//     }
+    // th, td {      
+    //    margin: $td-margin;
+    //     // border-spacing: 20px;
+    // }
 
 //     caption {
 //         background-color: $table-caption-color;
