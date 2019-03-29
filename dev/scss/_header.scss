@@ -1,25 +1,31 @@
-// // Header styles
+// Header styles
 header {
-    background-color: $header-main-color;
-    
-    // padding: $padding/2 $padding;
-    // @include flex-layout-row;
-    align-items: center;
 
-    h1 {      
-        color: text-color-dark;
-      // @media (max-width: $phoneLandscape){
-        //     font-size: 1.6em;
-        // }
+    .title-bar {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 20px;
+        }   
+    
+    .hamburger {
+        display: none;
+
+        @media (max-width: $tabletPortrait){
+            display: block;
+        }
     }
-    h2{
-   
-        color:text-color-dark;
-        // min-height: header-line-height ;
-    }
-    h4{
-      
-        color:text-color-dark;
-        // min-height: header-line-height ;
-    }
+
+   // background-color: $header-main-color;
+    
+    // // padding: $padding/2 $padding;
+    // // @include flex-layout-row;
+    // align-items: center;
+
+    // h1 {
+    //     @include flatten;
+    //     color: text-color-dark;
+    //     @media (max-width: $phoneLandscape){
+    //         font-size: 1.6em;
+    //     }
+    // }
 }
