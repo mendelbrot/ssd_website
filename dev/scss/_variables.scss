@@ -1,7 +1,11 @@
 // Colors
 $brand-color: #8540c5;
+<<<<<<< HEAD
 $body-bg-color: #834C24;
 $footer-bg-color:003366;
+=======
+$body-bg-color: #303030;
+>>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
 $wrapper-bg-color: white;
 // Text Colors
 $text-color-dark: black;
@@ -18,9 +22,16 @@ $heading-font: Tahoma, Verdana, Segoe, sans-serif;
 $line-height: 1.4;
 
 // Layout variables
+<<<<<<< HEAD
 $padding: 30px;
 // Grid Values
 $gutter: 2;
+=======
+$padding: 50px;
+$width: 1000px;
+
+
+>>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
 
 // Function to determine column width
 // takes two numerical parameters:
@@ -30,12 +41,21 @@ $gutter: 2;
     @return ((100 - $g * ($c - 1)) / $c) * 1%;
 }
 
+<<<<<<< HEAD
 $one-col: 100%;
 $two-col: colWidth(2);
 $three-col: colWidth(3);
 $four-col: colWidth(4);
 $five-col: colWidth(5);
 $six-col: colWidth(6);
+=======
+// $one-col: 100%;
+// $two-col: colWidth(2);
+// $three-col: colWidth(3);
+// $four-col: colWidth(4);
+// $five-col: colWidth(5);
+// $six-col: colWidth(6);
+>>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
 
 // Function to
 // Convert Px to Ems
@@ -49,6 +69,9 @@ $tabletLandscape: em(1024);
 $tabletPortrait: em(850);
 $phoneLandscape: em(670);
 $phonePortrait: em(420);
+<<<<<<< HEAD
 
 // Utility variables
 $link-hover-selector: '&:hover, &:focus, &:active';
+=======
+>>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
