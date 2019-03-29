@@ -1,21 +1,9 @@
 // Main Navigation Styles
-<<<<<<< HEAD
-nav {
-    // locally scoped variable
-    $height: 40px;
-    $border: 1px solid white;
-    
-    // background-color: $brand-color-dark;
-=======
-
-
 nav {
     // locally scoped variable
     $height: 40px;
     $border: 1px solid black;
-    
     background-color: $brand-color-dark;
->>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
     height: $height;
     border-top: $border;
 
@@ -42,15 +30,9 @@ nav {
         text-decoration: none;
         outline: none;
         
-<<<<<<< HEAD
-        #{$link-hover-selector} {
-            background-color: rgba(white, 0.3);
-        }
-=======
         // #{$link-hover-selector} {
         //     background-color: rgba(white, 0.3);
         // }
->>>>>>> 998c7d9c0551636c09785490e75782f2c930a16f
 
         @at-root nav li:last-child a {
             border-right: none;

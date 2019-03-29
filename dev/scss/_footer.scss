@@ -1,7 +1,7 @@
 // // Footer Styles
 footer {
     padding: $padding;
-    border-top: 1px dotted $footer-bg-color;
+    //border-top: 1px dotted $footer-bg-color;
     p {
         @include flatten;
     }
