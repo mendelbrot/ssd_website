@@ -1,15 +1,18 @@
 .cellStyle{
+    display: inline-block;
+    width: 40%;
     @include flatten;
     background-color: $cellColor;
     border-radius:$borderRadius;
-    width : 480px;
+    //width : 480px;
     padding:$cellPadding; 
     margin-bottom: $cellMargin;
 }
 .rightCellStyle
 {
     // display:flex;
-    float :right;
+    display: inline-block;
+    width: 40%;
     margin-right: $cellMarginRight;
 }
 
