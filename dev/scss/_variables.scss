@@ -7,10 +7,15 @@ $text-color-dark: black;
 $text-color-light: white;
 $header-main-color:white;
 $list-head-color:gray;
+
 //Table 
 $cellColor:white;
 $borderRadius:25px;
 $cellPadding:20px;
+$cellMargin:10px;
+$cellMarginRight:15px;
+$cellMarginLeft:15px;
+$headingPadding:.5px;
 
 // Use Color functions to brighten and darken colors
 $brand-color-dark: darken($brand-color, 20);
@@ -22,10 +27,13 @@ $heading-font: Tahoma, Verdana, Segoe, sans-serif;
 // Typographic Defualts
 $line-height: 1.4;
 
+
 // heading
 $subHeading : 20px;
 $fontStyle:bold;
 $font-style:italic;
+$margin:25px;
+
 
 
 // Layout variables

@@ -2,8 +2,18 @@
     @include flatten;
     background-color: $cellColor;
     border-radius:$borderRadius;
-    width : 330px;
-    padding:$cellPadding;
+    width : 480px;
+    padding:$cellPadding; 
+    margin-bottom: $cellMargin;
+}
+.rightCellStyle
+{
+    // display:flex;
+    float :right;
+    margin-right: $cellMarginRight;
+}
 
+.cellLeft{
+    margin-left: $cellMarginLeft;
 }
 

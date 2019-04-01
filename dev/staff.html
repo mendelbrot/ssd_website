@@ -4,71 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Staff Details</title>
+    <title>Staff</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
         <div class="wrapper">
         
-            <header>
-                <div class="title-div">
-                    <h4>SCHOOL OF COMPUTING AND ACADEMIC STUDIES</h4>
-                    <h1>Software System Developer Program</h1>
-                    <h2>Web Programmer Option </h2>
-                </div>
-                <button class="nav-btn-menu">Menu</button>
-                <div class="nav-bar">
-                    <nav>
-                        <ul>
-                            <li class="nav-item first-nav-item">
-                                <a href="./index.html" class="nav-link active-page">
-                                    <span>Home</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./schedule.html" class="nav-link">
-                                    <span>Schedule</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./students.html" class="nav-link">
-                                    <span>Students</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./staff.html" class="nav-link">
-                                    <span>Staff</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./e-recources.html" class="nav-link">
-                                    <span>E-Recources</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./overview.html" class="nav-link">
-                                    <span>Program Overview</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./courses.html" class="nav-link">
-                                    <span>Courses</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="./contact.html" class="nav-link">
-                                    <span>Contact</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-        
+	<header>
+		<div class="title-bar">
+
+			<h1>SSD Program</h1>
+
+			<button class="hamburger hamburger--3dx" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+
+		</div>
+
+		<nav>
+			<ul>
+				<li class="first-nav-item">
+					<a href="./index.html" >
+						<span>Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="./schedule.html">
+						<span>Schedule</span>
+					</a>
+				</li>
+				<li>
+					<a href="./students.html">
+						<span>Students</span>
+					</a>
+				</li>
+				<li>
+					<a href="./staff.html" class="nav-current-page">
+						<span>Staff</span>
+					</a>
+				</li>
+				<li>
+					<a href="./e-recources.html">
+						<span>E-Recources</span>
+					</a>
+				</li>
+				<li>
+					<a href="./overview.html">
+						<span>Program</span>
+					</a>
+				</li>
+				<li>
+					<a href="./courses.html">
+						<span>Courses</span>
+					</a>
+				</li>
+				<li>
+					<a href="./contact.html">
+						<span>Contact</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
             <div class="main-content">
-                <h1>STAFF</h1>
-                <h3>Faculty</h3>           
-                <div class="cellStyle">
+                <h1 class="mainHead">STAFF</h1>
+                <div class="subHead">
+                    <h3 class="textPositon">Faculty</h3>
+                </div>
+                          
+                <div class="cellStyle cellLeft">
                             
                     <p class="faculty">Pat McGee</p>
                      <p class="instructor">SSD Program Lead</p>
@@ -76,16 +82,16 @@
                     <p>Pat_McGee@bcit.ca</p>                         
                            
                 </div>
-                <div class="cellStyle">
-                            
+
+                <div class="cellStyle rightCellStyle">                            
                     <p class="faculty">Phil Weier</p>
                     <p class="instructor">Instructor</p>
                     <p>C#, SQL,ASP.NET,iOS</p>
-                    <p>Pweier@bcit.ca</p>                         
+                    <p>Pweier@bcit.ca</p>                        
                            
                 </div>
                    
-             <div class="cellStyle">
+             <div class="cellStyle cellLeft">
                              
                 <p class="faculty">Michael Whyte</p>
                 <p class="instructor">Instructor</p>
@@ -93,7 +99,7 @@
                 <p> Michael_Whyte@bcit.ca</p>                               
                             
              </div>
-            <div class="cellStyle">
+            <div class="cellStyle rightCellStyle">
                            
                 <p class="faculty">Jason Harrison</p>
                 <p class="instructor">Instructor</p>
@@ -101,26 +107,26 @@
                  <p>Jason_Harrison@bcit.ca </p>                       
             </div>
                    
-             <div class="cellStyle">
+             <div class="cellStyle cellLeft">
                  <p class="faculty">Paul Mills</p>
                 <p class="instructor">Instructor</p>                                    
                 <p>Java, Android</p>                                    
                 <p>Paul_Mills@bcit.ca</p>
                              
              </div>  
-             <div class="cellStyle">                   
+             <div class="cellStyle rightCellStyle">                   
                     <p class="faculty">Medhat Elmasry </p>
                     <p class="instructor" >Instructor</p>                                    
                     <p>MEAN Stack</p>                                    
                     <p>Medhat_Elmasry@bcit.ca</p>
                            
              </div>
-             <div class="cellStyle">
+             <div class="cellStyle cellLeft">
                 <p class="faculty">Marlene Delanghe</p>
                 <p class="instructor">Instructor</p>    
                 <p>Team Building, Resume & Interview Skills</p>                                       
              </div>
-            <div class="cellStyle">   
+            <div class="cellStyle rightCellStyle">   
                 <p class="faculty">Jeff Parker</p>
                 <p class="instructor">Instructor</p>
                 <p> PHP / MySQL</p> 
