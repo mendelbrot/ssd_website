@@ -1,4 +1,9 @@
-ul{
-list-style: none;
+.cellStyle{
+    @include flatten;
+    background-color: $cellColor;
+    border-radius:$borderRadius;
+    width : 330px;
+    padding:$cellPadding;
+
 }
 

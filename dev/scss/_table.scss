@@ -16,9 +16,14 @@
 
 table{
     @include margin-center;
-    padding: 10px;
-   
+    // padding: 10px;
+  border-spacing: $borderSpacing;   
 }
+td{
+  background-color:$cellColor;
+  border-radius: $borderRadius;
+}
+
 //     // Table Border
     // $table-border: 1px solid black;
     

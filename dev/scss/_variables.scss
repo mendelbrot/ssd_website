@@ -1,11 +1,16 @@
 // Colors
 $brand-color: #8540c5;
-$body-bg-color:	#003366;
-$wrapper-bg-color: white;
+$body-bg-color:	#8d8ec5;
+$wrapper-bg-color:  	#E0E0E0;
 // Text Colors
 $text-color-dark: black;
 $text-color-light: white;
 $header-main-color:white;
+$list-head-color:gray;
+//Table 
+$cellColor:white;
+$borderRadius:25px;
+$cellPadding:20px;
 
 // Use Color functions to brighten and darken colors
 $brand-color-dark: darken($brand-color, 20);
@@ -17,10 +22,17 @@ $heading-font: Tahoma, Verdana, Segoe, sans-serif;
 // Typographic Defualts
 $line-height: 1.4;
 
+// heading
+$subHeading : 20px;
+$fontStyle:bold;
+$font-style:italic;
+
+
 // Layout variables
 $padding: 50px;
 $width: 1000px;
-// $header-line-height:1.4;
+$borderSpacing: 20px;
+
 
 
 // Function to determine column width
