@@ -1,0 +1,16 @@
+.subHead{
+    
+    margin-top: $margin;
+    background-color: $brand-color;
+    color:$cellColor;
+    padding:$headingPadding;
+    margin-bottom: $margin;
+}
+.textPositon{
+    @include flatten;
+    margin-left: 20px;
+}
+
+.mainHead{
+    text-align: center;
+}
