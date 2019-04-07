@@ -1,0 +1,14 @@
+.contactDiv{
+    border:1px dashed #3c1b5a;
+    width:49%;
+    display: inline-block;
+    line-height: 25px;
+    border-radius:$borderRadius;
+    padding: $cellPadding;
+    margin-top: $cellMargin;
+
+}
+.contactBg{
+    background-color: white;
+    margin:auto;
+}
