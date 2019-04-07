@@ -2,6 +2,7 @@
 $brand-color: #8540c5;
 $body-bg-color:	#8d8ec5;
 $wrapper-bg-color:  	#E0E0E0;
+$bgColor:#642e96;
 // Text Colors
 $text-color-dark: black;
 $text-color-light: white;
@@ -14,8 +15,8 @@ $borderRadius:25px;
 $cellPadding:20px;
 $cellMargin:10px;
 $cellMarginRight:15px;
-$cellMarginLeft:15px;
-$headingPadding:.5px;
+$cellMarginLeft:10px;
+$headingPadding:10px;
 
 // Use Color functions to brighten and darken colors
 $brand-color-dark: darken($brand-color, 20);

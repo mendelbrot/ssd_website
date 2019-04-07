@@ -1,9 +1,10 @@
 .subHead{    
     margin-top: $margin;
-    background-color: $brand-color;
+    background-color: $bgColor;
     color:$cellColor;
     padding:$headingPadding;
     margin-bottom: $margin;
+    border-radius:$borderRadius;
 }
 .textPositon{
     @include flatten;
