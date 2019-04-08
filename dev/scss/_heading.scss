@@ -14,3 +14,11 @@
 .mainHead{
     text-align: center;
 }
+.contactSubhead{
+    font-size: 30;
+    background-color: $bgColor;
+    font-weight: $fontStyle;
+    color: $text-color-light;
+    padding: $cellPadding;
+    border-radius:$borderRadius;
+}

@@ -81,11 +81,11 @@
 	</header>
 
 	
-		<div class="main-content mainStaffDiv ">
+		<div class=" mainStaffDiv ">
 			<h1 class="mainHead">Contact Us</h1>
 			<div class="contactBg">
-				<p>Helpful Links</p>
-				<div>
+				<h2 class="subHead textposition">Helpful Links</h2>
+				<div class="contactHelp">
 					<ul>
 						<li>
 								<a href="https://secure.bcit.ca/sis/apply/">Start your application.</a>
@@ -104,10 +104,11 @@
 			</div>
 				
        	    <div class="contactBg">
-				   <p>Contact Information</p>
+				   <h2 class="subHead textposition">Contact Information</h2>
            		 <div  class="contactDiv ">
-               		 <p class="contactHeading">For admission and program inquiries:</p>
-               		 <ul>
+						<p class="contactHeading">For admission and program inquiries:</p>
+						<p>&nbsp;</p>
+               		 <ul class="contactHelp">
                   		<li>Phone: 604.412.7788</li>
                    	 	<li>Fax: 604.408.0921</li>
                   	    <li>Email: HTP@bcit.ca</li>
@@ -116,17 +117,103 @@
            		 </div>
            		 <div  class="contactDiv">
                     <p class="contactHeading">Mailing address:</p>
-                	<ul>                
+                	<ul class="contactHelp">                
                   		 <li> HTP Programs - BCIT Downtown Campus<br/>
                    		 350 - 555 Seymour Street<br/>
                    		 Vancouver, BC, Canada <br/>
                    		 V6B 3H6 
                    		</li>
                		 </ul>
-					</div>
+				 </div>
 					<p class="contactCapmpusMap">
 							<a href="https://www.bcit.ca/about/downtown.shtml" class="anchor">Campus info, map, and directions</a>
 					</p>
+				</div>
+					<div class="contactBg">
+						<h2 class="subHead textposition">Contact Form</h2>
+						<div class="contactHelp">
+							<form onsubmit="alert('Thank you, We will contact you soon ');" method="post">
+							 <div class="contactFormDiv">
+								 <div class="contactFormLabel">
+									 <label for="firstName">First name</label>
+								 </div>
+								 <div class="contactInput">
+									<input type="text" name="firstName" id="firstName" maxlength="80" placeholder="First name" required>
+								 </div>
+							 </div>
+							 <div class="contactFormDiv">
+								<div class="contactFormLabel">
+									<label for="lastName">Last name</label>
+								</div>
+								<div class="contactInput">
+									<input type="text" name="lastName" id="lastname" maxlength="80" placeholder="Last name" required>
+								</div>
+							 </div>
+
+							 <div>
+								<div>
+									<label for="email">Email</label>
+								</div>
+								<div>
+									<input type="email" name="email" id="email" maxlength="80" placeholder="email@example.com" required>
+								</div>
+							 </div>
+
+							 <div>
+								<div>
+									<label for="email">Email</label>
+								</div>
+								<div>
+									<input type="email" name="email" id="email" maxlength="80" placeholder="email@example.com" required>
+								</div>
+							 </div>
+
+							
+							<div>
+								<div>
+									<label for="phone">Phone</label>
+								</div>
+								<div>
+									<input type="phone" name="phone" id="phone" maxlength="20" placeholder="(000)123-4567">
+								</div>
+							</div>
+
+							<div>
+								<label>
+								   <input type="radio" name="contactPerson" value="CurrentStudent" required>"Current Student"
+							    </label>
+								<br>
+								<label>
+									<input type="radio" name="contactPerson" value="ProspectiveStudent" required>"Prospective Student"
+								</label>
+								<br>
+								<label>
+									<input type="radio" name="contactPerson" value="Instructor" required>"Instructor"
+								</label>
+								<br>
+
+							</div>
+
+							<div>
+								<div>
+									<label for="comments">Questions or Comments</label>
+								</div>
+								<div>
+									<textarea name="comments" id="comments" rows="5" cols="25" required></textarea>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<input id="submit" type="submit" value="Send">
+								</div>
+							</div>
+                       
+
+							</form>
+							
+						</div>
+					</div>
 			</div>
 
 			

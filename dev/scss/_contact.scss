@@ -1,5 +1,5 @@
 .contactDiv{
-    border:1px dashed #3c1b5a;
+    border:0.5px dashed #5a4969;
     width:49%;
     display: inline-block;
     line-height: 25px;
@@ -11,4 +11,36 @@
 .contactBg{
     background-color: white;
     margin:auto;
+      padding-bottom: 5px;
+      padding-top: 1px;
+      margin-top: 10px;
+      border-radius: 13px;
+}
+
+
+.contactHeading{
+    font-weight: bold;
+    font-size: 20px;
+    color:$bgColor;
+}
+.contactHelp{
+  font-size: 18px;
+  line-height: $line-height;
+
+}
+.contactFormLabel{
+    font-weight: $fontStyle;
+    width:30%;
+    float:left;
+    padding:0px;
+   
+}
+.contactInput{
+    width:70%;
+    border-radius: 2px;
+    padding:0px;
+    float:right;
+}
+.contactFormDiv{
+   display: inline-block;
 }
