@@ -53,8 +53,6 @@
         border-left: solid 1px $brand-color;
         font-weight: bold;
 
-
-
         > div {
             flex: 1 0 13%;
             min-height: 80px;
@@ -73,13 +71,17 @@
         .gray {
         background-color: gray ;
 
-        * {
-           background-color: gray ; 
+            * {
+            background-color: gray ; 
+            }
         }
-    }
 
         .day-of-month {
             margin-bottom: 10px;
+        }
+
+        .instructor-name {
+            font-style: italic
         }
     }
 
