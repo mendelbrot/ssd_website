@@ -5,8 +5,6 @@
     border-radius:$borderRadius;
     padding: $cellPadding;
     margin-top: $cellMargin;
-
-
 }
 .border{
     border:$contactDivBorder;
@@ -77,11 +75,9 @@ input[type=text],input[type=email],input[type=phone],textarea{
 }
 
 .inputButton{
-    // margin-top: 100px;
-    text-align: $buttonText-align;
+    margin-top: 100px;
 }
 .button{
-    position: $buttonPosition;
      color:$text-color-light;
      background-color: $bgColor;
      border:$buttonBorder;
@@ -92,11 +88,21 @@ input[type=text],input[type=email],input[type=phone],textarea{
 
 @media (max-width: $tabletPortrait) {
     .contactFormLabel{
-        width: 100%; 
+        width: 100%;
+        float: none; 
+        padding: 0px
     }
      .contactInput {
         width: 100%;
+        float: none;
+        //display: block; 
+    } 
+
+    .contactDiv {
+        padding: 0px;
+        display: block;
+        width: 100%
     }
    
-    }
+}
 
