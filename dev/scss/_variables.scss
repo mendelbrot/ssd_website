@@ -36,6 +36,24 @@ $textdecoration:none;
 $width:25%;
 $leftWidth:75%;
 
+//Text Input 
+$inputPadding:12px 20px;
+$inputMargin: 8px 0;
+$inputWidth:100%;
+$inputDisplay:inline-block;
+$radius:4px;
+$boxSizing:border-box;
+$inputBorder:1px solid #ccc;
+
+//submit Input
+$buttonMargin-top: 95px;
+$buttonText-align: center;
+$buttonPosition: absolute;
+$buttonBorder: none;
+$buttonHeight: 40px;
+$buttonWidth: 20%;
+$button-radius: 5px;
+ 
 
 
 // heading
@@ -44,6 +62,17 @@ $fontStyle:bold;
 $font-style:italic;
 $margin:25px;
 
+//Radio
+$radioWidth:93%;
+$radioBorder:1px solid $bgColor;
+$radioMargin-top: 35px;
+$radioMargin-left:35px;
+$lineHeight: 25px;
+
+//Div
+$contactDivBorder:1px dashed $brand-color;
+$divWidth: 45%;
+display: inline-block;
 
 
 // Layout variables

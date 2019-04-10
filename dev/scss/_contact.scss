@@ -1,15 +1,37 @@
 .contactDiv{
-    border:0.5px dashed #5a4969;
-    width:49%;
-    display: inline-block;
+    // border:0.5px dashed #5a4969;
+    width:$inputWidth;  
     line-height: 25px;
     border-radius:$borderRadius;
     padding: $cellPadding;
     margin-top: $cellMargin;
 
+
 }
+.border{
+    border:$contactDivBorder;
+    width: $divWidth;
+    display: $inputDisplay;
+}
+.width{
+    padding-bottom: $cellPadding;
+    
+}
+input[type=text],input[type=email],input[type=phone],textarea{
+    width: $inputWidth;
+    padding: $inputPadding;
+    // margin: $inputMargin;
+    display: $inputDisplay;
+    border:$inputBorder;
+    border-radius:$radius;
+    box-sizing: $borderRadius;
+  }
+.buttonMargin{
+    margin-top: $cellMargin;
+}
+
 .contactBg{
-    background-color: white;
+    background-color:$text-color-light;
     margin:auto;
       padding-bottom: 5px;
       padding-top: 1px;
@@ -30,17 +52,52 @@
 }
 .contactFormLabel{
     font-weight: $fontStyle;
-    width:30%;
+    width:$width;
     float:left;
     padding:0px;
+    padding-top: 8px;
    
 }
 .contactInput{
-    width:70%;
+    width:$leftWidth;
     border-radius: 2px;
     padding:0px;
     float:right;
 }
-.contactFormDiv{
-   display: inline-block;
+.contactRadio{
+   
+   width:$radioWidth;  
+   border:$radioBorder;
+    line-height: $lineHeight;
+    border-radius:$borderRadius;
+    padding: $cellPadding;
+    margin-top: $radioMargin-top;
+    margin-left:$radioMargin-top;
+    font-weight: $fontStyle;
 }
+
+.inputButton{
+    // margin-top: 100px;
+    text-align: $buttonText-align;
+}
+.button{
+    position: $buttonPosition;
+     color:$text-color-light;
+     background-color: $bgColor;
+     border:$buttonBorder;
+     height: $buttonHeight;
+     width: $buttonWidth;
+     border-radius: $button-radius;
+     
+}
+
+@media (max-width: $tabletPortrait) {
+    .contactFormLabel{
+        width: 100%; 
+    }
+     .contactInput {
+        width: 100%;
+    }
+   
+    }
+
