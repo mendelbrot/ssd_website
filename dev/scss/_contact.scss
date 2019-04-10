@@ -87,8 +87,7 @@ input[type=text],input[type=email],input[type=phone],textarea{
      border:$buttonBorder;
      height: $buttonHeight;
      width: $buttonWidth;
-     border-radius: $button-radius;
-     
+     border-radius: $button-radius;     
 }
 
 @media (max-width: $tabletPortrait) {
