@@ -1,7 +1,157 @@
-.calendar-month {
-    display: flex;
+.schedule {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: $brand-color-light ;   
 
-    div {
-        flex: 1;
+    * {
+       background-color: lightgoldenrodyellow;  
+       font-size: 0.95em; 
+
+    }
+
+    .month {
+        margin-top: 20px;
+        padding: 5px;
+        background-color: white;
+        border-top: solid 1px $brand-color;
+        border-left: solid 1px $brand-color;
+        border-right: solid 1px $brand-color;
+        font-weight: bold;
+        font-size: 1.30em; 
+    }
+
+    .first-month {
+        margin-top: 0px;
+    }
+
+    .days {
+        display: flex;
+        font-weight: bold;
+
+        div {
+            background-color: lightgreen;
+        }
+
+        :first-child {
+            border-top: solid 1px $brand-color;
+            border-right: solid 1px $brand-color;
+        }
+
+        div {
+            flex: 1;
+            border-top: solid 1px $brand-color;
+            border-left: solid 1px $brand-color;
+            border-right: solid 1px $brand-color;
+        }
+    }
+
+    .dates-container {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: solid 1px $brand-color;
+        border-left: solid 1px $brand-color;
+        font-weight: bold;
+
+        > div {
+            flex: 1 0 13%;
+            min-height: 80px;
+            border-bottom: solid 1px $brand-color;
+            border-right: solid 1px $brand-color;
+        }
+
+        > .calendar-only {
+            background-color: lightblue ;
+
+            * {
+                background-color: lightblue ; 
+            }
+        }
+
+        .gray {
+        background-color: gray ;
+
+            * {
+            background-color: gray ; 
+            }
+        }
+
+        .day-of-month {
+            margin-bottom: 10px;
+        }
+
+        .instructor-name {
+            font-style: italic
+        }
+    }
+
+    .list-only{ 
+        display:none;
     }
 }
+
+//list reflow styles
+.list-schedule {
+
+    .list-only{ 
+        display:block;
+    }
+
+    .column-labels {
+        display: flex;
+        font-weight: bold;
+        font-size: 1.1em;
+
+        div {
+            background-color: white;
+            min-height: 30px;
+            line-height: 30px;
+            padding-left: 5px;
+        }
+
+        :first-child {
+            border-top: solid 1px $brand-color;
+            border-right: solid 1px $brand-color;
+        }
+
+        div {
+            flex: 1;
+            border-top: solid 1px $brand-color;
+            border-left: solid 1px $brand-color;
+            border-right: solid 1px $brand-color;
+        }
+    }
+
+    .dates-container {
+        display: block;
+
+        > div {
+            min-height: 30px;
+            line-height: 30px;
+            padding-left: 5px;
+        }
+
+        .week {
+            font-weight: bold;
+            font-size: 1.1em;
+            background-color: lightgreen;
+        }
+
+        > .active-day {
+            display: flex;
+
+            :not(.day-of-month)  {
+                flex: 1 0 22%;
+            }
+        }
+
+        &:not(.first-dates-container) {
+            border-top: none
+        }
+    }
+
+    .calendar-only{ 
+        display:none;
+    }
+}
+

@@ -10,7 +10,7 @@
     <!-- Put Google Fonts Here -->
 
     <!-- end Google Fonts -->
-    <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT THREE LINES OF CODE - THEY ARE IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THESE LINES -->
+    <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT THREE LINES OF CODE - THEY ARE IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR instructor-name FIRST IF YOU WANT TO EDIT OR DELETE THESE LINES -->
     <!-- build:css styles/styles.min.css -->
     <link rel="stylesheet" href="styles/styles.css">
     <!-- endbuild -->
@@ -39,12 +39,12 @@
                 <nav>
                     <ul>
                         <li class="first-nav-item">
-                            <a href="./index.html" class="nav-current-page">
+                            <a href="./index.html">
                                 <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="./schedule.html">
+                            <a href="./schedule.html" class="nav-current-page">
                                 <span>Schedule</span>
                             </a>
                         </li>
@@ -83,62 +83,440 @@
             </header>
 
             <main>
-                <div class="calendar-month">
-                    <div>Sun</div>
-                    <div>Mon</div>
-                    <div>Tue</div>
-                    <div>Wed</div>
-                    <div>Thu</div>
-                    <div>Fri</div>
-                    <div>Sat</div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
-                    <div>7</div>
-                    <div>8</div>
-                    <div>9</div>
-                    <div>
-                        10
-                        <div>Front End Web Design/Scripting/Tooling</div>
-                        <div>Michael Whyte</div>
-                        <div>382</div>
+                <div class="schedule list-schedule">
+                    <div class="list-only column-labels">
+                        <div>Date</div>
+                        <div>Course</div>
+                        <div>Instructor</div>
+                        <div>Room</div>
                     </div>
-                    <div>11</div>
-                    <div>12</div>
-                    <div>13</div>
-                    <div>14</div>
-                    <div>15</div>
-                    <div>16</div>
-                    <div>17</div>
-                    <div>18</div>
-                    <div>19</div>
-                    <div>20</div>
-                    <div>21</div>
-                    <div>22</div>
-                    <div>23</div>
-                    <div>24</div>
-                    <div>25</div>
-                    <div>26</div>
-                    <div>27</div>
-                    <div>28</div>
-                    <div>29</div>
-                    <div>30</div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div>
+                    
+                    <div class="calendar-only month first-month">September</div>
+                    
+                    <div class="calendar-only days">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    
+                    <div class="dates-container first-dates-container">
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">26</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">27</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">28</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">29</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">30</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">31</div>
+                        </div>
+                    
+                        <div class="calendar-only not-scheduled">
+                            <div class="day-of-month">1</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">2</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">3</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">4</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">5</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">6</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">7</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">8</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">9</div>
+                        </div>
+                    
+                        <div class="list-only week first-week">Week 1</div>
+                        <div class="active-day">
+                            <div class="list-only date">10-Sep-18</div>
+                            <div class="calendar-only day-of-month">10</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">11-Sep-18</div>
+                            <div class="calendar-only day-of-month">11</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">12-Sep-18</div>
+                            <div class="calendar-only day-of-month">12</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">13-Sep-18</div>
+                            <div class="calendar-only day-of-month">13</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">14-Sep-18</div>
+                            <div class="calendar-only day-of-month">14</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">15</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">16</div>
+                        </div>
+                    
+                        <div class="list-only week">Week 2</div>
+                        <div class="active-day">
+                            <div class="list-only date">17-Sep-18</div>
+                            <div class="calendar-only day-of-month">17</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">18-Sep-18</div>
+                            <div class="calendar-only day-of-month">18</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">19-Sep-18</div>
+                            <div class="calendar-only day-of-month">19</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">20-Sep-18</div>
+                            <div class="calendar-only day-of-month">20</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">21-Sep-18</div>
+                            <div class="calendar-only day-of-month">21</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">22</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">23</div>
+                        </div>
+                    
+                        <div class="list-only week">Week 3</div>
+                        <div class="active-day">
+                            <div class="list-only date">24-Sep-18</div>
+                            <div class="calendar-only day-of-month">24</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">25-Sep-18</div>
+                            <div class="calendar-only day-of-month">25</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">26-Sep-18</div>
+                            <div class="calendar-only day-of-month">26</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">27-Sep-18</div>
+                            <div class="calendar-only day-of-month">27</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">28-Sep-18</div>
+                            <div class="calendar-only day-of-month">28</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">29</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">30</div>
+                        </div>
+                    
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">1</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">2</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">3</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">4</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">5</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">6</div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="calendar-only month">September</div>
+                    
+                    <div class="calendar-only days">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    
+                    <div class="dates-container">
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">26</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">27</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">28</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">29</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">30</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">31</div>
+                        </div>
+                    
+                        <div class="calendar-only not-scheduled">
+                            <div class="day-of-month">1</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">2</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">3</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">4</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">5</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">6</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">7</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">8</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">9</div>
+                        </div>
+                    
+                        <div class="list-only week">Week 1</div>
+                        <div class="active-day">
+                            <div class="list-only date">10-Sep-18</div>
+                            <div class="calendar-only day-of-month">10</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">11-Sep-18</div>
+                            <div class="calendar-only day-of-month">11</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">12-Sep-18</div>
+                            <div class="calendar-only day-of-month">12</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">13-Sep-18</div>
+                            <div class="calendar-only day-of-month">13</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">14-Sep-18</div>
+                            <div class="calendar-only day-of-month">14</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">15</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">16</div>
+                        </div>
+                    
+                        <div class="list-only week">Week 2</div>
+                        <div class="active-day">
+                            <div class="list-only date">17-Sep-18</div>
+                            <div class="calendar-only day-of-month">17</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">18-Sep-18</div>
+                            <div class="calendar-only day-of-month">18</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">19-Sep-18</div>
+                            <div class="calendar-only day-of-month">19</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">20-Sep-18</div>
+                            <div class="calendar-only day-of-month">20</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">21-Sep-18</div>
+                            <div class="calendar-only day-of-month">21</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">22</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">23</div>
+                        </div>
+                    
+                        <div class="list-only week">Week 3</div>
+                        <div class="active-day">
+                            <div class="list-only date">24-Sep-18</div>
+                            <div class="calendar-only day-of-month">24</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">25-Sep-18</div>
+                            <div class="calendar-only day-of-month">25</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">26-Sep-18</div>
+                            <div class="calendar-only day-of-month">26</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">27-Sep-18</div>
+                            <div class="calendar-only day-of-month">27</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                        <div class="active-day">
+                            <div class="list-only date">28-Sep-18</div>
+                            <div class="calendar-only day-of-month">28</div>
+                            <div class="course">Front End Web</div>
+                            <div class="instructor-name">Michael Whyte</div>
+                            <div class="room">382</div>
+                        </div>
+                    
+                        <div class="calendar-only">
+                            <div class="day-of-month">29</div>
+                        </div>
+                        <div class="calendar-only">
+                            <div class="day-of-month">30</div>
+                        </div>
+                    
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">1</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">2</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">3</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">4</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">5</div>
+                        </div>
+                        <div class="calendar-only gray">
+                            <div class="day-of-month">6</div>
+                        </div>
+                    
+                    </div>
+                </div>
             </main>
 
             <footer>
@@ -149,7 +527,7 @@
 
         <!-- *** IMPORTANT *** If you want to add additional JavaScript scripts to your project, then make sure to 
 place the script tags between the build:js comment tags -->
-        <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT FOUR LINES OF CODE - THEY ARE IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR INSTRUCTOR FIRST IF YOU WANT TO EDIT OR DELETE THESE LINES -->
+        <!-- *** IMPORTANT *** DO NOT DELETE OR EDIT THE NEXT FOUR LINES OF CODE - THEY ARE IMPORTANT FOR THE GULP BUILD PROCESS. SEE YOUR instructor-name FIRST IF YOU WANT TO EDIT OR DELETE THESE LINES -->
         <!-- build:js scripts/script.min.js -->
         <script src="scripts/jquery-3.3.1.min.js"></script>
         <script src="scripts/script.js"></script>
