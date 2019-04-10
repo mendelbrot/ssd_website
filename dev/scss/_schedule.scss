@@ -60,7 +60,7 @@
             border-right: solid 1px $brand-color;
         }
 
-        > .calendar-only {
+        > .calendar-only:not(.active-day) {
             background-color: lightblue ;
 
             * {
