@@ -52,7 +52,7 @@ input[type=text],input[type=email],input[type=phone],textarea{
 }
 .contactFormLabel{
     font-weight: $fontStyle;
-    width:$width;
+    // width:$labelwidth;
     float:left;
     padding:0px;
     padding-top: 8px;
