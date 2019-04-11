@@ -16,12 +16,24 @@
 
 table{
     @include margin-center;
-    // padding: 10px;
-  border-spacing: $borderSpacing;   
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden; 
+  margin-top: 16px;
+  
+}
+th{
+  column-span:2;
+  border-top: none;
+  background-color: $bgColor;
+  color:$text-color-light;
+  text-align: center;
 }
 td{
-  background-color:$cellColor;
-  border-radius: $borderRadius;
+  background-color: $header-main-color;
+  // color:$text-color-light;
+  padding:10px;
+  border: 1px solid $bgColor;
 }
 
 //     // Table Border
@@ -29,7 +41,7 @@ td{
     
     // Table Cell padding
     // $cell-padding: 20px;
-    $td-margin:20px;
+    // $td-margin:20px;
 //     // Table Styles
 //     font-family: $heading-font;
 //     width: $one-col;
