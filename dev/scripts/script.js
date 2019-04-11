@@ -12,3 +12,10 @@ $("#toggle-list").click(function () {
         $(this).text('View As List');
     }
 });
+
+// apply only list view for small screens.  
+// changes may not apply if window is resized without refresh.
+if (window.matchMedia("(max-width: 850px)").matches) {
+    $("#course-schedule").addClass('list-schedule');
+    $("#toggle-list").text('View As Calendar').hide();
+}
