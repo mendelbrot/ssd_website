@@ -47,6 +47,9 @@ header {
             }
 
         @media (max-width: $tabletPortrait) {
+
+            opacity: 0.8;
+
             width: 250px;
             height: auto;
             border-top: none;

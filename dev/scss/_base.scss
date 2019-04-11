@@ -1,6 +1,7 @@
 // Hamburger
 // ==================================================
 .hamburger {
+
   padding: $hamburger-padding-y $hamburger-padding-x;
   display: inline-block;
   cursor: pointer;
@@ -13,7 +14,7 @@
   font: inherit;
   color: inherit;
   text-transform: none;
-  background-color: transparent;
+  background-color: black;
   border: 0;
   margin: 0;
   overflow: visible;
@@ -28,6 +29,11 @@
   }
 
   &.is-active {
+    
+    opacity: 0.8;
+    position: fixed;
+    right: 0px;
+
     &:hover {
       @if $hamburger-hover-use-filter == true {
         filter: $hamburger-active-hover-filter;
