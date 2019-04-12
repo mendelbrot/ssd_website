@@ -18,20 +18,10 @@ header {
 
         @media (max-width: $tabletPortrait){
             display: block;
-        }
+            
+            }
+        
     }
 
-   // background-color: $header-main-color;
-    
-    // // padding: $padding/2 $padding;
-    // // @include flex-layout-row;
-    // align-items: center;
-
-    // h1 {
-    //     @include flatten;
-    //     color: text-color-dark;
-    //     @media (max-width: $phoneLandscape){
-    //         font-size: 1.6em;
-    //     }
-    // }
+  
 }
