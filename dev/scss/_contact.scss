@@ -86,6 +86,16 @@ input[type=text],input[type=email],input[type=phone],textarea{
      border-radius: $button-radius;     
 }
 
+.feedbackBg{
+    background-color:$text-color-light;
+    margin:auto;
+    padding-top: 30px;     
+      padding-left: 10px;     
+      margin-top: 10px;
+      border-radius: 8px;
+      height: 200px;;
+}
+
 @media (max-width: $tabletPortrait) {
     .contactFormLabel{
         width: 100%;
