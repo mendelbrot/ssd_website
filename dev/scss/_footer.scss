@@ -20,9 +20,15 @@ footer {
 
         li {
 
+            :hover {
+                    text-decoration: underline;
+                }
+
             a span{
-            color: white;
-        }
+                color: white;
+                
+                
+            }
         }
         
         
