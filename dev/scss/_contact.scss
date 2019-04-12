@@ -1,5 +1,6 @@
 .contactDiv{
     // border:0.5px dashed #5a4969;
+    
     width:$inputWidth;  
     line-height: 25px;
     border-radius:$borderRadius;
@@ -14,6 +15,9 @@
 .width{
     padding-bottom: $cellPadding;
     
+}
+.contactCenter{
+   margin: auto;
 }
 input[type=text],input[type=email],input[type=phone],textarea{
     width: $inputWidth;
@@ -30,7 +34,7 @@ input[type=text],input[type=email],input[type=phone],textarea{
 
 .contactBg{
     background-color:$text-color-light;
-    margin:auto;
+   
       padding-bottom: 5px;
       padding-top: 1px;
       margin-top: 10px;

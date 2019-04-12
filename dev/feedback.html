@@ -83,15 +83,16 @@
 		</nav>
 	</header>
 
-	<main>
+	
 		<div class=" mainStaffDiv ">
-			<h1 class="mainHead"></h1>
+			
 			<div class="feedbackBg">
             
-                <h3>Thank you,  We have received your information and will contact you shortly. </h3>
+				<h3>Thank you,  We have received your information and will contact you shortly. </h3>
+		
 				
 			</div>
-				
+		</div>		
        	  
 
 	<footer>
@@ -152,5 +153,12 @@ place the script tags between the build:js comment tags -->
 <script src="scripts/jquery-3.3.1.min.js"></script>
 <script src="scripts/script.js"></script>
 <!-- endbuild -->	
+<script>
+    window.onload = function()
+    {
+        var query = window.location.search;
+        document.getElementsByTagName('h3').innerHTML = query;
+    }
+</script>
 </body>
 </html>

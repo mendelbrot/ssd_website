@@ -1,24 +1,4 @@
-// // Mixins
 
-// // Mixin for centering element
-// // with margin-left: auto
-// // and margin-right: auto;
-// @mixin margin-center {
-//     margin: {
-//         left: auto;
-//         right: auto;
-//     }
-// }
-
-// // Mixin for clearing out
-// // margins and padding and
-// // setting the line-height to 1 
-// // ...useful mainly on typographic elements
-// Mixins
-
-// Mixin for centering element
-// with margin-left: auto
-// and margin-right: auto;
 @mixin margin-center {
     margin: {
         left: auto;
@@ -190,20 +170,3 @@ $aspect-ratios: (
     }
 
 }
-
-// Placeholder styles
-// Similar to mixins but without
-// parameters
-// %row-item {
-//     width: $two-col;
-//     padding: $padding;
-//     @include first-last-el-no-margin;
-//     border: 1px dotted #ccc;
-//     @media (max-width: $phoneLandscape){
-//         width: $one-col;
-//         margin-bottom: 8%;
-//         &:last-child {
-//             margin-bottom: 0;
-//         }
-//     }
-// }
