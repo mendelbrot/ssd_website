@@ -19,3 +19,8 @@ if (window.matchMedia("(max-width: 850px)").matches) {
     $("#course-schedule").addClass('list-schedule');
     $("#toggle-list").text('View As Calendar').hide();
 }
+
+function display() {
+    var name = document.getElementById('firstName').value;
+    alert("Thank you, " + name + ". We have received your information and will contact you shortly.");
+}
